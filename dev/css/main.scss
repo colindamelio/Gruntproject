@@ -22,6 +22,8 @@
 // BACKGROUND IMAGE 
 // ==================================================
 
+$accentuate: #EB7578;
+
 @mixin headingtext {
 	font-family: 'Helvetica', Arial;
 	font-weight: 100;
@@ -34,7 +36,7 @@
 	font-family: 'Helvetica', Arial;
 	font-weight: 500;
 	font-size: 20px;
-	color: #EB7578;
+	color: $accentuate;
 }
 
 h1, h2  {
@@ -42,12 +44,12 @@ h1, h2  {
 }
 
 h2 {
-	color: #EB7578;
+	color: $accentuate;
 	padding-top: 35px;
 }
 
 .intro span {
-	color: #EB7578;
+	color: $accentuate;
 }
 
 h3 {
@@ -139,6 +141,10 @@ h3 {
 	padding-bottom: 50px;
 }
 
+.skills p {
+	font-size: 20px;
+}
+
 .skills h2 {
 	text-align: center;
 	padding-bottom: 50px;
@@ -219,5 +225,5 @@ h3 {
 }
 
 .final span {
-	color: #e97770;
+	color: $accentuate;
 }
