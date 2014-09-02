@@ -20,8 +20,8 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		sass: {                              // Task
-			dist: {                            // Target
+		sass: {                              // This is the Task
+			dist: {                            // This is the Target
 				options: {                       // Target options
 					style: 'compressed'
 				},
